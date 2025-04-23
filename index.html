@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Maquillaje</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>✨ Tienda de Maquillaje ✨</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#categorias">Categorías</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner principal -->
+    <section class="banner">
+        <div class="banner-texto">
+            <h2>Descubre tu belleza única 💄</h2>
+            <p>Explora los mejores productos de maquillaje seleccionados para ti.</p>
+            <a href="#productos" class="btn">Ver Productos</a>
+        </div>
+    </section>
+
+    <!-- Categorías -->
+    <section id="categorias" class="categorias">
+        <h2>Categorías</h2>
+        <div class="categoria-grid">
+            <div class="categoria">Labiales</div>
+            <div class="categoria">Bases</div>
+            <div class="categoria">Sombras</div>
+            <div class="categoria">Pestañinas</div>
+            <div class="categoria">Brochas</div>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos" class="productos">
+        <h2>Productos Destacados</h2>
+        <div class="producto-grid">
+            <div class="producto">
+                <img src="imagenes/labial.png" alt="Labial Rojo">
+                <h3>Labial Rojo</h3>
+                <p>$10.99</p>
+                <button onclick="agregarAlCarrito('Labial Rojo')">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="imagenes/040085.png" alt="Base Líquida">
+                <h3>Base Líquida</h3>
+                <p>$15.50</p>
+                <button onclick="agregarAlCarrito('Base Líquida')">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="imagenes/20013425-01.jpg" alt="Paleta de Sombras">
+                <h3>Paleta de Sombras</h3>
+                <p>$22.00</p>
+                <button onclick="agregarAlCarrito('Paleta de Sombras')">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="imagenes/pestaninaprosa-1.jpg" alt="Pestañina Volumen">
+                <h3>Pestañina Volumen</h3>
+                <p>$8.99</p>
+                <button onclick="agregarAlCarrito('Pestañina Volumen')">Agregar al carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios">
+        <h2>Lo que dicen nuestras clientas 💕</h2>
+        <div class="testimonio">
+            <p>"¡Estoy encantada con los productos! Todo es de excelente calidad."</p>
+            <strong>- Laura G.</strong>
+        </div>
+        <div class="testimonio">
+            <p>"El labial que compré me dura todo el día. ¡Volveré a comprar!"</p>
+            <strong>- Camila P.</strong>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-info">
+            <p>&copy; 2025 Tienda de Maquillaje | Todos los derechos reservados</p>
+            <p>Síguenos en redes: 
+                <a href="#">Instagram</a> | 
+                <a href="#">Facebook</a> | 
+                <a href="#">TikTok</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
